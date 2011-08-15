@@ -3,7 +3,7 @@ source :rubygems
 gem 'rspec'
 gem 'cucumber'
 gem 'aruba'
-gem 'simplecov'
+gem 'simplecov', :require => false
 
 gem 'rb-fsevent'
 gem 'growl'
