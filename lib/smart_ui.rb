@@ -274,6 +274,8 @@ class ButtleEnglish
     case command
     when "Hoimi", "2"
       player_hoimi()
+    when "q"
+      exit 0
     else
       player_attack()
     end
