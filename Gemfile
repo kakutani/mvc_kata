@@ -10,3 +10,5 @@ gem 'growl'
 gem 'guard'
 gem 'guard-rspec'
 gem 'guard-cucumber'
+
+gem 'r18n-core'
