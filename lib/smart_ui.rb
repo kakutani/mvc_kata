@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+require 'smart_ui/cli/main'
 class Living
   attr :hp, true
   attr :max_hp, true
@@ -291,13 +292,5 @@ class ButtleEnglish
 
   def start
     encount()
-  end
-end
-
-if $0 == __FILE__
-  if ARGV.shift == "english"
-    ButtleEnglish.new.start
-  else
-    Buttle.new.start
   end
 end

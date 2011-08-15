@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 Given /^戦闘スクリプトを起動する$/ do
-  smart_ui = File.expand_path("#{File.dirname(__FILE__)}/../../smart_ui.rb")
-  run_interactive "ruby #{smart_ui}"
+  run_interactive "smart_ui"
   type "\n"
 end
 
