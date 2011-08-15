@@ -294,9 +294,10 @@ class ButtleEnglish
   end
 end
 
-
-if ARGV.shift == "english"
-  ButtleEnglish.new.start
-else
-  Buttle.new.start
+if $0 == __FILE__
+  if ARGV.shift == "english"
+    ButtleEnglish.new.start
+  else
+    Buttle.new.start
+  end
 end
