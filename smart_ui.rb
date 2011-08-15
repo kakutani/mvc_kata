@@ -147,6 +147,8 @@ class Buttle
       player_hoimi()
     when "にげる", "3"
       player_escape()
+    when "q"
+      exit 0
     else
       player_attack()
     end
