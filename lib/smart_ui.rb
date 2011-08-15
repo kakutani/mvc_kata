@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 require 'smart_ui/cli/main'
+require 'r18n-core'
 class Living
   attr :hp, true
   attr :max_hp, true
@@ -44,6 +45,8 @@ class Player < Living
 end
 
 class Buttle
+  include R18n::Helpers
+
   def initialize
     @enemey_classes = [Slime, Dragon]
     @player = Player.new
@@ -159,7 +162,7 @@ class Buttle
     @enemey = @enemey_classes.sample.new
 
     puts "==========================="
-    puts "#{@enemey.name}があらわれた"
+    puts t.message.encount(nil, @enemey.name)
 
     gets
 
@@ -172,6 +175,7 @@ class Buttle
 end
 
 class ButtleEnglish
+  include R18n::Helpers
   def initialize
     @enemey_classes = [Slime, Dragon]
     @player = Player.new
