@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 $:.unshift(File.dirname(__FILE__) + '/../lib') unless $:.include?(File.dirname(__FILE__) + '/../lib')
-require 'smart_ui'
-require 'smart_ui/cli/main'
+require 'mvc_kata'
+require 'mvc_kata/cli/main'
 begin
-  SmartUi::Cli::Main.execute(ARGV)
+  MvcKata::Cli::Main.execute(ARGV)
 rescue SystemExit => e
   Kernel.exit(e.status)
 rescue Exception => e

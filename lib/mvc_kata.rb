@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-require 'smart_ui/cli/main'
+require 'mvc_kata/cli/main'
 require 'r18n-core'
 class Living
   attr :hp, true

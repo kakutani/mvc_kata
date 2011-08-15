@@ -1,5 +1,5 @@
 require 'r18n-core'
-module SmartUi
+module MvcKata
   module Cli
     class Main
       class << self
