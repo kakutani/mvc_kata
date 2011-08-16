@@ -4,14 +4,14 @@ require 'mvc_kata/battle'
 
 require 'r18n-core'
 
-class Living
+class Character
   attr :hp, true
   attr :max_hp, true
   attr :name, true
   attr :attack_power, true
 end
 
-class Enemey < Living
+class Enemey < Character
   attr :exp, true
 end
 
@@ -35,7 +35,7 @@ class Dragon < Enemey
   end
 end
 
-class Player < Living
+class Player < Character
   attr :mp, true
 
   def initialize
