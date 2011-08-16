@@ -1,2 +1,18 @@
 message:
   encount: "%1 encounted a %2."
+  hp_status: "%1 HP: %2"
+  battle_1: " 1 Attack"
+  battle_2: " 2 Hoimi"
+  query_command: "Command?"
+  hoimi_spelled: "%1 call hoimi."
+  hoimi_cured: "%1 cured %2 point(s)"
+  attack: "%1 attack."
+  do_damage: "%1 damaged %2 point(s)."
+  beat_enemy: "%1 win!"
+  turn_count: "Turn count: %1"
+  you_loose: "%1 lose..."
+  game_over: "GAME OVER"
+
+command:
+  hoimi: Hoimi
+  escape: Run away

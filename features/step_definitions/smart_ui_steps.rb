@@ -48,7 +48,7 @@ end
 
 Then /^player should attack the enemy$/ do
   out = all_output
-  out.should include("PLAYER attack")
+  out.should include("PLAYER attack.")
   out.should match(/(?:DRAGON|SLIME)\sdamaged/)
 end
 

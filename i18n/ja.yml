@@ -1,2 +1,18 @@
 message:
   encount: "%2があらわれた"
+  hp_status: "%1のHP: %2"
+  battle_1: " 1 たたかう"
+  battle_2: " 2 ホイミ"
+  query_command: "コマンド? [1]"
+  hoimi_spelled: "%1はホイミをとなえた"
+  hoimi_cured: "HPが%2回復した"
+  attack: "%1のこうげき"
+  do_damage: "%1に%2のダメージ"
+  beat_enemy: "%1をたおした"
+  turn_count: "かかったターン数%1"
+  you_loose: "%1はたおれました"
+  game_over: "ゲームオーバー"
+
+command:
+  hoimi: ホイミ
+  escape: にげる
